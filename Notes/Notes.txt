@@ -1,0 +1,8 @@
+
+For sonarqube coverage
+Step 1: ./gradlew clean build
+
+Cleans and builds the project, ensuring that the necessary artifacts are available.
+Step 2: ./gradlew jacocoTestReport sonarqube
+
+Generates the Jacoco coverage report and performs SonarQube analysis using the existing build artifacts.
